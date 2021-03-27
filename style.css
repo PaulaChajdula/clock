@@ -1,0 +1,73 @@
+body {
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url("img/grey.png");
+	font-family: 'Lato', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	height: 720px;
+	display: block;
+}
+
+#container {
+	background-image: url("gray_jean.png");
+	float: left;
+	width: 300px;
+	height: 150px;
+	border-radius: 20px;
+	left: 0;
+	transform: translateY(-50%);
+	font-size: 60px;
+	text-align: center;
+	font-family: monospace;
+	color: rgb(39, 39, 41);
+	margin-left: 60px;
+	margin-top: 420px;
+	-webkit-box-shadow: 3px 3px 10px 5px black;
+	-moz-box-shadow: 3px 3px 10px 5px black;
+	box-shadow: 3px 3px 30px 5px black;
+	border-radius: 10px;
+
+}
+
+#container1 {
+	background-image: url("gray_jean.png");
+	float: right;
+	width: 300px;
+	height: 150px;
+	left: 0;
+	transform: translateY(-50%);
+	font-size: 60px;
+	text-align: center;
+	font-family: monospace;
+	color: rgb(39, 39, 41);
+	margin-left: 60px;
+	margin-top:420px;
+	-webkit-box-shadow: 3px 3px 10px 5px black;
+	-moz-box-shadow: 3px 3px 10px 5px black;
+	box-shadow: 3px 3px 30px 5px black;
+	border-radius: 10px;
+}
+
+#option {
+	float: center;
+	min-width: 50px;
+	height: 25px;
+	font-size: 50px;
+	padding: 10px;
+	text-align: center;
+	margin-top: 40px;
+}
+#option>a{
+	text-decoration: none;
+	text-align: center;
+	padding: 10px;
+	color: black;
+	font-family: monospace;
+}
+#option>hover{
+	text-decoration: underline;
+}
+#option:hover {
+	background-color: #ADD8E6;
+}
